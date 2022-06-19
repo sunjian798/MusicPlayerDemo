@@ -1,0 +1,77 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="Personalisation">
+
+        <EditTextPreference
+            app:defaultValue="User@YMPlayer"
+            app:key="user_name"
+            app:title="Your name"
+            app:useSimpleSummaryProvider="true" />
+
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory app:title="@string/messages_header">
+
+        <ListPreference
+            app:defaultValue="blue"
+            app:entries="@array/theme_entries"
+            app:entryValues="@array/theme_values"
+            app:key="theme"
+            app:title="@string/theme"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:entries="@array/background_entries"
+            android:entryValues="@array/background_values"
+            app:defaultValue="light"
+            app:key="background"
+            app:title="Background"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Playback">
+
+        <SwitchPreference
+            android:key="builtin_equalizer"
+            android:defaultValue="false"
+            android:title="Use built-in equalizer"
+            android:summaryOff="System Equalizer is configured to give audio effects"
+            android:summaryOn="Built-In Equalizer is configured to give audio effects"/>
+
+        <Preference
+            android:key="equalizer"
+            android:dependency="builtin_equalizer"
+            android:title="Equalizer">
+            <intent android:targetPackage="com.yash.ymplayer" android:targetClass="com.yash.ymplayer.EqualizerActivity"/>
+        </Preference>
+
+        <SwitchPreferenceCompat
+            android:summaryOff="Disabled"
+            android:summaryOn="Enabled"
+            app:defaultValue="true"
+            app:key="albumart_enabled"
+            app:title="Album art on lock screen" />
+
+        <ListPreference
+            app:key="playback_quality"
+            app:title="Online streaming audio quality"
+            app:useSimpleSummaryProvider="true"
+            app:entries="@array/audio_quality"
+            app:entryValues="@array/audio_quality_values"
+            app:defaultValue="2"/>
+
+        <ListPreference
+            app:defaultValue="1000"
+            app:key="loudness_gain"
+            app:title="Loudness Gain"
+            app:entries="@array/loudness_gain"
+            app:entryValues="@array/loudness_gain_values"
+            app:useSimpleSummaryProvider="true" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

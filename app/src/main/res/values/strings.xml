@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="local_songs">本地音乐</string>
+    <string name="communication">交流</string>
+    <string name="share">分享</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string name="title_activity_settings">设置</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Appearance</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="settings">设置</string>
+    <string name="theme">Theme</string>
+    <string name="prev">prev</string>
+    <string name="next">next</string>
+    <string name="play_pause">play_pause</string>
+    <string name="about">关于</string>
+    <string name="author_name">Yashobanta Kumar Behera</string>
+    <string name="changelog">
+        -----------------------------------\n
+        Version 1.4.5\n
+        -----------------------------------\n
+        * Mp3 Download in 128Kbps, 192Kbps and 320Kbps added\n
+        * 5 Band Equalizer added\n
+        * Now stream audio in HIGH, MEDIUM and LOW Qualities\n
+        * Playlist playback support both online and offline audio files\n
+        * Crash report send function added\n
+        * Bug fixes\n
+        -----------------------------------\n
+        Version 1.4\n
+        ------------------------------------\n
+        * Google assistant integration for media controls\n
+        * Youtube API integrated for online streaming\n
+        -----------------------------------\n
+        Version 1.2\n
+        -----------------------------------\n
+        * Added add to favourite button\n
+        * Added shuffle button\n
+        * Background is now blurred with song embedded art\n
+        * Implemented playing Queue and arranging items\n
+        * Some minor bug fixes\n
+        -----------------------------------\n
+        Initial Version 1.0\n
+        -----------------------------------\n
+        * This is initial build, the basic music playing operations are included.\n
+    </string>
+    <string name="spotify_songs">Spotify Songs</string>
+    <string name="albums">专辑</string>
+    <string name="artists">作者</string>
+    <string name="songs">歌曲</string>
+    <string name="youtube_songs">音乐</string>
+    <string name="eq">Equalizer</string>
+    <string name="downloads">下载</string>
+    <string name="list_name">list_name</string>
+    <string name="list_image">list_image</string>
+    <string name="play_single">单曲播放</string>
+    <string name="queue_next">下一首</string>
+    <string name="download">下载</string>
+    <string name="_128kbps">128Kbps</string>
+    <string name="_192kbps">192Kbps</string>
+    <string name="_320kbps">320Kbps</string>
+    <string name="queue_last">添加到播放列表</string>
+</resources>

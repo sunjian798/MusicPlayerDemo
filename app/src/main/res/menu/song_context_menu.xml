@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/play_single"
+        android:title="单曲循环" />
+    <item
+        android:id="@+id/queue_next"
+        android:title="下一首" />
+    <item
+        android:id="@+id/add_to_playlist"
+        android:title="添加到播放列表" />
+    <item
+        android:id="@+id/go_to_album"
+        android:title="跳到专辑" />
+    <item
+        android:id="@+id/goto_artist"
+        android:title="跳到作者" />
+    <item
+        android:id="@+id/shareSong"
+        android:title="分享" />
+    <item
+        android:id="@+id/deleteFromStorage"
+        android:title="删除" />
+</menu>

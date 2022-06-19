@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="本地"
+        android:icon="@drawable/ic_home_24" />
+    <item
+        android:title="专辑"
+        android:icon="@drawable/ic_album_24" />
+    <item
+        android:title="作者"
+        android:icon="@drawable/ic_artist_track_24" />
+    <item
+        android:title="播放列表"
+        android:icon="@drawable/ic__play_list_24" />
+</menu>
